@@ -2,7 +2,7 @@
 
 date_default_timezone_set('Asia/Kolkata');
 
-$apikey = ""; // get your own apiKey from " https://babel-in.xyz "
+$apikey = "babel-f37db0cca648d35d4df0abcd9228da2f"; // get your own apiKey from " https://babel-in.xyz "
 $cacheFolder = "_cache_"; // set cache folder
 $cacheTime = 691200; // 8 days in seconds
 
@@ -11,7 +11,7 @@ if (!is_dir($cacheFolder)) {
 }
 
 // get data
-$url = "https://babel-in.xyz/$apikey/tata/channels";
+$url = "https://babel-in.xyz/babel-f37db0cca648d35d4df0abcd9228da2f/tata/channels";
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_USERAGENT, 'Babel-In');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
