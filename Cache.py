@@ -4,7 +4,7 @@ import time
 import requests
 from datetime import datetime
 
-apikey = ""  # get your own API key from "https://babel-in.xyz"
+apikey = "babel-f37db0cca648d35d4df0abcd9228da2f"  # get your own API key from "https://babel-in.xyz"
 cache_folder = "_cache_" # cacheFile
 cache_time = 691200  # 8 days in seconds
 
@@ -12,7 +12,7 @@ if not os.path.exists(cache_folder):
     os.makedirs(cache_folder)
 
 def fetch_and_cache_data():
-    url = f"https://babel-in.xyz/{apikey}/tata/channels"
+    url = f"https://babel-in.xyz/babel-f37db0cca648d35d4df0abcd9228da2f/tata/channels"
     headers = {'User-Agent': 'Babel-In'}
 
     try:
